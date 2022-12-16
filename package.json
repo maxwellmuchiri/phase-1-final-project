@@ -1,0 +1,24 @@
+{
+  "name": "phase-1-final-project",
+  "version": "1.0.0",
+  "description": "A web page dealing with vehicle sales",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxwellmuchiri/phase-1-final-project.git"
+  },
+  "keywords": [
+    "css",
+    "js",
+    "html"
+  ],
+  "author": "Maxwell Muchiri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxwellmuchiri/phase-1-final-project/issues"
+  },
+  "homepage": "https://github.com/maxwellmuchiri/phase-1-final-project#readme"
+}
