@@ -38,7 +38,8 @@ Create a db.json file with the relevant data (Vehicle sales)
       json-server --watch db.json
   -To ensure you have the json server installed run
    
- http://localhost:3000/films
+ http://localhost:3000/vehicles
+
 
 
 
@@ -60,7 +61,7 @@ Scroll down and find the Github Pages option in settings.
 Select a main branch or any other branch that you would like to publish and host online
 click save and wait for about five minutes
 Refresh the page and your website is hosted ready to share
- https://maxwellmuchiri.github.io/week-3-code-challenge/
+ https://maxwellmuchiri.github.io/phase-1-final-project/
 
 
 
@@ -68,3 +69,4 @@ Refresh the page and your website is hosted ready to share
 This project was contributed to by:
 - [Maxwell Muchiri](https://github.com/maxwellmuchiri/)
 # License
+Apache License 2.0
