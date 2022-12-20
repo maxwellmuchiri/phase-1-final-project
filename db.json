@@ -6,11 +6,119 @@
       "make":"Toyota",
       "color": "black",
       "price": "8,000,000",
-      "s": "04:00PM",
-      "photo": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+      "photo": "https://www.carscoops.com/wp-content/uploads/2022/08/Toyota-Land-Cruiser-Prado-Package-Matt-Black-Edition-3s.jpg "
     },
     {
-     
+      "id": "2",
+      "type": "lorry",
+      "make":"Isuzu",
+      "color": "white",
+      "price": "5,000,000",
+      "photo": "https://www.shutterstock.com/image-illustration/highly-detailed-illustration-long-wheelbase-260nw-17743708.jpg"
+    },
+    {
+      "id": "3",
+      "type": "motorbike",
+      "make":"BMW",
+      "color": "grey",
+      "price": "2,000,000",
+      "photo": "https://i.pinimg.com/originals/13/cf/87/13cf87d19202d6d8129f6ae0ddfca6fb.jpg"
+    },
+    {
+      "id": "4",
+      "type": "machinery",
+      "make":"Massey Ferguson",
+      "color": "red",
+      "price": "6,000,000",
+      "photo": "https://www.masseyferguson.com/content/dam/public/masseyfergusonglobal/markets/en/assets/tractors/mf-8700-s/cutout-images/mf8700s_front_3-4.png"
+    },
+    {
+      "id": "5",
+      "type": "Car",
+      "make":"Mercedes G Wagon",
+      "color": "white",
+      "price": "17,000,000",
+      "photo": "https://www.cars.com/i/large/in/v2/stock_photos/c5fef5cd-3de5-4023-bbf3-55c4eb01b7df/833a0c32-a22f-4097-821a-3cd1282c22d4.png"
+    },
+    {
+      "id": "6",
+      "type": "motorbike",
+      "make":"Duccati",
+      "color": "red",
+      "price": "1,700,000",
+      "photo": "https://cdn.dealerspike.com/imglib/v1/800x600/imglib/Assets/Inventory/C6/FC/C6FCFADE-19B1-400F-85A8-3E2A03C4986B.jpg"
+    },
+    {
+      "id": "7",
+      "type": "lorry",
+      "make":"Tesla",
+      "color": "white",
+      "price": "22,000,000",
+      "photo": " https://static3.bigstockphoto.com/4/3/5/large1500/53498455.jpg"
+    },
+    {
+      "id": "8",
+      "type": "machinery",
+      "make":"Komatsu",
+      "color": "yellow",
+      "price": "17,000,000",
+      "photo": " https://bucket.carmodel.com/images/cm-lg/142514_5.jpg"
+    },
+    {
+      "id": "9",
+      "type": "Car",
+      "make":"BMW m4",
+      "color": "green",
+      "price": "6,000,000",
+      "photo": "https://i.pinimg.com/originals/d0/b0/a6/d0b0a6d79bca4ff9670ee7868d819475.jpg"
+    },
+    {
+      "id": "10",
+      "type": "motorbike",
+      "make":"kawasaki",
+      "color": "black",
+      "price": "3,000,000",
+      "photo": "https://i.pinimg.com/originals/36/bd/8f/36bd8fd59a6fe65b6d60d632e6d8db24.jpg"
+    },
+    {
+      "id": "11",
+      "type": "lorry",
+      "make":"Isuzu",
+      "color": "blue",
+      "price": "7,500,000",
+      "photo": "https://pictures-kenya.jijistatic.com/40227942_MTAyNC03NjgtN2VkZDFiNjUwNQ.jpg"
+    },
+    {
+      "id": "12",
+      "type": "machinery",
+      "make":"xcmg",
+      "color": "yellow",
+      "price": "9,000,000",
+      "photo": " https://image.made-in-china.com/202f0j00rmsEfptjYnzD/XCMG-Lw700kn-Wheel-Loader-7-Tons-Front-End-Loader-Tractor-Price-more-models-for-sale-.jpg"
+    },
+    {
+      "id": "13",
+      "type": "Car",
+      "make":"Cadillac",
+      "color": "black",
+      "price": "9,500,000",
+      "photo": "https://cars.usnews.com/static/images/Auto/izmo/i159614807/2022_cadillac_escalade_angularfront.jpg"
+    },
+    {
+      "id": "14",
+      "type": "Car",
+      "make":"Nissan GTR",
+      "color": "blue",
+      "price": "17,000,000",
+      "photo": "https://www.topgear.com/sites/default/files/images/news-article/2019/04/95ebfdd32b029b835dffe718cd4e4762/190405_my20_gt-r_anniversary_studio3.jpg"
+    },
+    {
+      "id": "15",
+      "type": "Car",
+      "make":"Subaru",
+      "color": "white",
+      "price": "3,000,000",
+      "photo": "https://i.pinimg.com/originals/97/a0/d2/97a0d2ed23cd7ccc8ded9653aa9b57b0.jpg"
     }
   ]
 }
