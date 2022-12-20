@@ -4,7 +4,9 @@
   "description": "A web page dealing with vehicle sales",
   "main": "index.js",
   "scripts": {
-    "test": "npm start"
+    
+
+    "start": "json-server --watch ./db.json"
   },
   "repository": {
     "type": "git",
