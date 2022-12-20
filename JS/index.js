@@ -1,6 +1,14 @@
 //FETCHING DATA FROM JSON SERVER
-fetch(" http://localhost:3000/vehicles")
-.then(res=>res.json())
-.then(data=>{console.log(data)});
+let url =" http://localhost:3000/vehicles"
 
+function fetchVehicles(url) {
+    fetch(url)
+        .then(response => response.json())
+        .then(vehicles => {
+            vehicles.show.forEach(vehicle=> {
+                displayVehicle(vehicle)
+            });
+        })
 
+}
+function displayVehicle(vehicle)
