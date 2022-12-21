@@ -27,13 +27,19 @@ const type = document.getElementById("make").addEventListener('click',(x)=>{cons
 
 function fetchVehicles(){
     fetch(url)
-    .then(resp=>{
-        resp.json();
-    })
-    .then(
-        cont=>{
-            console.log(cont.id)
-        }
+    .then(resp=>resp.json()
     )
+    .then(data=>{ if(data.type ="Car"){
+        console.log(data.id)
+    }});
+
+    // if(data.type ="Car"){
+    //     console.log(data.id)
+    // }
+
 }
 fetchVehicles()
+
+// fetch('https://example.com/data.json')
+//   .then(response => response.json())
+//   .then(data => console.log(data));
