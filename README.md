@@ -33,7 +33,7 @@ To use this repo on your machine requires some simple steps
 # Runing Json Server
 Install json server through the terminal
   -npm install -g json-server
-Create a db.json file with the relevant data (Vehicle sales)
+Create a db.json file with the relevant data (Vehicles info)
   -To start the server run :
       json-server --watch db.json
   -To ensure you have the json server installed run

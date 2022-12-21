@@ -12,3 +12,12 @@ function fetchVehicles(url) {
 
 }
 function displayVehicle(vehicle)
+{
+
+    const li = document.createElement('li')
+    li.style.cursor = "pointer"
+    li.textContent = (vehicle.type).toUpperCase()
+    listHolder.appendChild(li)
+    
+    
+}
