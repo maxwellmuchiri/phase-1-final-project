@@ -3,7 +3,7 @@
     {
       "id": "1",
       "type": "Car",
-      "make":"Toyota",
+      "make":"Toyota Prado",
       "color": "black",
       "price": "8,000,000",
       "photo": "https://www.carscoops.com/wp-content/uploads/2022/08/Toyota-Land-Cruiser-Prado-Package-Matt-Black-Edition-3s.jpg "
@@ -27,7 +27,7 @@
     {
       "id": "4",
       "type": "machinery",
-      "make":"Massey Ferguson",
+      "make":"Massey Ferguson tractor",
       "color": "red",
       "price": "6,000,000",
       "photo": "https://www.masseyferguson.com/content/dam/public/masseyfergusonglobal/markets/en/assets/tractors/mf-8700-s/cutout-images/mf8700s_front_3-4.png"
@@ -51,7 +51,7 @@
     {
       "id": "7",
       "type": "lorry",
-      "make":"Tesla",
+      "make":"Scania",
       "color": "white",
       "price": "22,000,000",
       "photo": " https://static3.bigstockphoto.com/4/3/5/large1500/53498455.jpg"
@@ -59,7 +59,7 @@
     {
       "id": "8",
       "type": "machinery",
-      "make":"Komatsu",
+      "make":"Komatsu tractor",
       "color": "yellow",
       "price": "17,000,000",
       "photo": " https://bucket.carmodel.com/images/cm-lg/142514_5.jpg"
@@ -75,7 +75,7 @@
     {
       "id": "10",
       "type": "motorbike",
-      "make":"kawasaki",
+      "make":"kawasaki ninja",
       "color": "black",
       "price": "3,000,000",
       "photo": "https://i.pinimg.com/originals/36/bd/8f/36bd8fd59a6fe65b6d60d632e6d8db24.jpg"
@@ -91,7 +91,7 @@
     {
       "id": "12",
       "type": "machinery",
-      "make":"xcmg",
+      "make":"xcmg tractor",
       "color": "yellow",
       "price": "9,000,000",
       "photo": " https://image.made-in-china.com/202f0j00rmsEfptjYnzD/XCMG-Lw700kn-Wheel-Loader-7-Tons-Front-End-Loader-Tractor-Price-more-models-for-sale-.jpg"
@@ -99,7 +99,7 @@
     {
       "id": "13",
       "type": "Car",
-      "make":"Cadillac",
+      "make":"Cadillac Escalade",
       "color": "black",
       "price": "9,500,000",
       "photo": "https://cars.usnews.com/static/images/Auto/izmo/i159614807/2022_cadillac_escalade_angularfront.jpg"
@@ -115,7 +115,7 @@
     {
       "id": "15",
       "type": "Car",
-      "make":"Subaru",
+      "make":"Subaru wrx sti",
       "color": "white",
       "price": "3,000,000",
       "photo": "https://i.pinimg.com/originals/97/a0/d2/97a0d2ed23cd7ccc8ded9653aa9b57b0.jpg"
