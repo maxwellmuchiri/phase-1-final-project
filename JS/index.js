@@ -7,21 +7,26 @@ let vehicles=document.querySelector(".vehicles");
 let imageElement = document.createElement('img');
 let mainpage=document.getElementsByClassName('mainpage');
 
-function fetchVehicles(){
-    fetch(url)
-    .then(resp=>resp.json()
-    )
-    .then(data=>{
-    let li = document.createElement('ul');
-    data.forEach(vehicle => {
-      const item = document.createElement('li');
-      item.textContent = `${vehicle.make} ${vehicle.price} <img src="${vehicle.photo}"`;
-      li.appendChild(item);
+function fetchVehicles() {
+  fetch(url)
+    .then(resp => resp.json())
+    .then(data => {
+      let ul = document.createElement('ul');
+      data.forEach(vehicle => {
+        const li = document.createElement('li');
+        const imageElement = document.createElement('img');
+        imageElement.src = vehicle.photo;
+        imageElement.style.width = '600px';
+        imageElement.style.height = '400px';
+        li.textContent = `${vehicle.make} ${vehicle.price}`;
+        li.appendChild(imageElement);
+        ul.appendChild(li);
+      });
+      document.querySelector('.vehicles').appendChild(ul);
     });
-    document.body.appendChild(li);
-  });
 }
-fetchVehicles()
+
+fetchVehicles();
 
 let form = document.getElementById('ratingForm');
 form.addEventListener('submit', (event) => {
