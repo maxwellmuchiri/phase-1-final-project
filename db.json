@@ -7,7 +7,7 @@
       "color": "black",
       "price": "8,000,000",
     
-      "photo": "https://www.carscoops.com/wp-content/uploads/2022/08/Toyota-Land-Cruiser-Prado-Package-Matt-Black-Edition-3s.jpg "
+      "photo":"https://www.carscoops.com/wp-content/uploads/2022/08/Toyota-Land-Cruiser-Prado-Package-Matt-Black-Edition-3s.jpg "
     },
     {
       "id": "2",
@@ -15,7 +15,7 @@
       "make":"Isuzu",
       "color": "white",
       "price": "5,000,000",
-      "photo": "https://www.shutterstock.com/image-illustration/highly-detailed-illustration-long-wheelbase-260nw-17743708.jpg"
+      "photo":"https://www.shutterstock.com/image-illustration/highly-detailed-illustration-long-wheelbase-260nw-17743708.jpg"
     },
     {
       "id": "3",
@@ -23,7 +23,7 @@
       "make":"BMW",
       "color": "grey",
       "price": "2,000,000",
-      "photo": "https://i.pinimg.com/originals/13/cf/87/13cf87d19202d6d8129f6ae0ddfca6fb.jpg"
+      "photo":"https://i.pinimg.com/originals/13/cf/87/13cf87d19202d6d8129f6ae0ddfca6fb.jpg"
     },
     {
       "id": "4",
