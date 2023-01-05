@@ -1,11 +1,10 @@
-//FETCHING DATA FROM JSON SERVER
-let url =" http://localhost:3000/vehicles"; 
+// FETCHING DATA FROM JSON SERVER
+let url ="http://localhost:3000/vehicles";
 const mboto = document.getElementById("mboto").addEventListener('click',(x)=>{console.log("yess")})
 const price = document.getElementById("price").addEventListener('click',(x)=>{console.log("yess")})
-const type = document.getElementById("make").addEventListener('click',(x)=>{console.log("yess")})
+const type = document.getElementById("make").addEventListener('click',(x)=>{console.log("wtfff")})
 const vehicles=document.querySelector(".vehicles");
-const burron = document.getElementById('service rating').addEventListener('click',(x)=>{console.log('1')});
-
+const imageElement = document.createElement('img');
 
 function fetchVehicles(){
     fetch(url)
@@ -14,22 +13,14 @@ function fetchVehicles(){
     .then(data=>{
 
     const li = document.createElement('ul');
-    vehicles.appendChild(li)
-    data.forEach(vehicles => {
-      const item = document.createElement('div');
-      item.textContent = `${vehicles.make} ${vehicles.price} ${vehicles.photo}`;
-
-      vehicles.innerHTML=`${vehicles.make} ${vehicles.price} (img src"${vehicles.photo}`
-      mboto.src=vehicles.photo;
-      price=vehicles.price;
-      make=vehicles.make;
-
-
+    data.forEach(vehicle => {
+      const item = document.createElement('li');
+      item.textContent = `${vehicle.make} ${vehicle.price} ${vehicle.photo}`;
       li.appendChild(item);
-      li.appendChild(mboto)
+      imageElement.src = data.imageUrl;
+      document.body.appendChild(imageElement);
     });
     document.body.appendChild(li);
-  })
-};
- fetchVehicles()
-
+  });
+}
+fetchVehicles()
