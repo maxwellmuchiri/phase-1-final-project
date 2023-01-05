@@ -28,17 +28,27 @@
         <input type="checkbox" id="type" checked> Machinery
       </label>
     </div>
-    <main class="vehicles">
 
-        <div>
+      <main class="vehicles">
+
+        <div class="mainpage">
             <img src="" alt="coming soon" id="mboto">
             <p id="make">type</p>
             <p id="price">price</p>
         </div>
     </main>
-    <div class="rating button">
-      <button id="burron" service-rating="service rating">rating</button>
-         </div>
+    
+    <h4>service Rating</h4>
+    
+    <form id="ratingForm">
+      <input type="radio" name="rating" value="1"> poor
+      <input type="radio" name="rating" value="2"> fair
+      <input type="radio" name="rating" value="3"> good 
+      <input type="radio" name="rating" value="4"> very good 
+      <input type="radio" name="rating" value="5"> excellent
+      <button type="submit">Submit</button>
+    </form>
+    
         <script src="/JS/index.js"></script>
 </body>
 </html>
