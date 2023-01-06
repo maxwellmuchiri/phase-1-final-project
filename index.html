@@ -37,9 +37,18 @@
             <p id="price"></p>
         </div>
     </main>
-    
-    <h4>service Rating</h4>
+    <h4>Payment Method</h4>
 
+    <form id="payment">
+      <input type="radio" id="cash" name="payment" value="cash" checked>
+      <label for="cash">Cash</label><br>
+      <input type="radio" id="card" name="payment" value="card">
+      <label for="card">Card</label><br>
+      <input type="radio" id="cheque" name="payment" value="cheque">
+      <label for="cheque">Cheque</label><br>
+    </form>
+
+    <h4>service Rating</h4>
     <form id="ratingForm">
       <input type="radio" name="rating" value="1"> poor
       <input type="radio" name="rating" value="2"> fair

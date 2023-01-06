@@ -2,7 +2,7 @@
 let url ="http://localhost:3000/vehicles";
 let mboto = document.getElementById("mboto").addEventListener('click',(x)=>{console.log("yess")})
 let price = document.getElementById("price").addEventListener('click',(x)=>{console.log("yess")})
-let type = document.getElementById("make").addEventListener('click',(x)=>{console.log("wtfff")})
+let type = document.getElementById("make").addEventListener('click',(x)=>{console.log("yesss")})
 let vehicles=document.querySelector(".vehicles");
 let imageElement = document.createElement('img');
 let mainpage=document.getElementsByClassName('mainpage');
@@ -18,7 +18,9 @@ function fetchVehicles() {
         imageElement.src = vehicle.photo;
         imageElement.style.width = '650px';
         imageElement.style.height = '450px';
-        li.textContent = `${vehicle.make} ${vehicle.price}`;
+        li.textContent = `${vehicle.make}
+                          ${vehicle.color}
+                          ${vehicle.price}`;
         const button = document.createElement("button");
         button.textContent = "Order";
         button.addEventListener("click", () => {
