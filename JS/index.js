@@ -42,3 +42,10 @@ form.addEventListener('submit', (event) => {
   console.log(`You rated your service as ${rating} out of 5.`);
 });
 
+let field = document.querySelectorAll('#payment input[type="radio"]');
+field.forEach((field) => {
+  field.addEventListener('change', (event) => {
+    const paymentMethod = event.target.value;
+    console.log(`Payment method: ${paymentMethod}`);
+  });
+});
