@@ -5,7 +5,7 @@
       "type": "Car",
       "make":"Toyota Prado",
       "color": "black",
-      "price": "8,000,000",
+      "price": "8,000,000 ksh",
       "photo":"https://www.carscoops.com/wp-content/uploads/2022/08/Toyota-Land-Cruiser-Prado-Package-Matt-Black-Edition-3s.jpg "
     },
     {
@@ -13,7 +13,7 @@
       "type": "lorry",
       "make":"Isuzu",
       "color": "white",
-      "price": "5,000,000",
+      "price": "5,000,000 ksh",
       "photo":"https://www.shutterstock.com/image-illustration/highly-detailed-illustration-long-wheelbase-260nw-17743708.jpg"
     },
     {
@@ -21,7 +21,7 @@
       "type": "motorbike",
       "make":"BMW",
       "color": "grey",
-      "price": "2,000,000",
+      "price": "2,000,000 ksh",
       "photo":"https://i.pinimg.com/originals/13/cf/87/13cf87d19202d6d8129f6ae0ddfca6fb.jpg"
     },
     {
@@ -29,7 +29,7 @@
       "type": "machinery",
       "make":"Massey Ferguson tractor",
       "color": "red",
-      "price": "6,000,000",
+      "price": "6,000,000 ksh",
       "photo": "https://www.masseyferguson.com/content/dam/public/masseyfergusonglobal/markets/en/assets/tractors/mf-8700-s/cutout-images/mf8700s_front_3-4.png"
     },
     {
@@ -37,7 +37,7 @@
       "type": "Car",
       "make":"Mercedes G Wagon",
       "color": "white",
-      "price": "17,000,000",
+      "price": "17,000,000 ksh",
       "photo": "https://www.cars.com/i/large/in/v2/stock_photos/c5fef5cd-3de5-4023-bbf3-55c4eb01b7df/833a0c32-a22f-4097-821a-3cd1282c22d4.png"
     },
     {
@@ -45,7 +45,7 @@
       "type": "motorbike",
       "make":"Duccati",
       "color": "red",
-      "price": "1,700,000",
+      "price": "1,700,000 ksh",
       "photo": "https://cdn.dealerspike.com/imglib/v1/800x600/imglib/Assets/Inventory/C6/FC/C6FCFADE-19B1-400F-85A8-3E2A03C4986B.jpg"
     },
     {
@@ -53,7 +53,7 @@
       "type": "lorry",
       "make":"Scania",
       "color": "white",
-      "price": "22,000,000",
+      "price": "22,000,000 ksh",
       "photo": " https://static3.bigstockphoto.com/4/3/5/large1500/53498455.jpg"
     },
     {
@@ -61,7 +61,7 @@
       "type": "machinery",
       "make":"Komatsu tractor",
       "color": "yellow",
-      "price": "17,000,000",
+      "price": "17,000,000 ksh",
       "photo": " https://bucket.carmodel.com/images/cm-lg/142514_5.jpg"
     },
     {
@@ -69,7 +69,7 @@
       "type": "Car",
       "make":"BMW m4",
       "color": "blue",
-      "price": "6,000,000",
+      "price": "6,000,000 ksh",
       "photo": "https://savvas-rentacar.com/wp-content/uploads/2016/01/Violet-Blue-BMW-M4-15-750x500.jpg"
     },
     {
@@ -77,7 +77,7 @@
       "type": "motorbike",
       "make":"kawasaki ninja",
       "color": "black",
-      "price": "3,000,000",
+      "price": "3,000,000 ksh",
       "photo": "https://i.pinimg.com/originals/36/bd/8f/36bd8fd59a6fe65b6d60d632e6d8db24.jpg"
     },
     {
@@ -85,7 +85,7 @@
       "type": "lorry",
       "make":"Isuzu",
       "color": "blue",
-      "price": "7,500,000",
+      "price": "7,500,000 ksh",
       "photo": "https://pictures-kenya.jijistatic.com/40227942_MTAyNC03NjgtN2VkZDFiNjUwNQ.jpg"
     },
     {
@@ -93,7 +93,7 @@
       "type": "machinery",
       "make":"xcmg tractor",
       "color": "yellow",
-      "price": "9,000,000",
+      "price": "9,000,000 ksh",
       "photo": " https://image.made-in-china.com/202f0j00rmsEfptjYnzD/XCMG-Lw700kn-Wheel-Loader-7-Tons-Front-End-Loader-Tractor-Price-more-models-for-sale-.jpg"
     },
     {
@@ -101,7 +101,7 @@
       "type": "Car",
       "make":"Cadillac Escalade",
       "color": "black",
-      "price": "9,500,000",
+      "price": "9,500,000 ksh",
       "photo": "https://cars.usnews.com/static/images/Auto/izmo/i159614807/2022_cadillac_escalade_angularfront.jpg"
     },
     {
@@ -109,7 +109,7 @@
       "type": "Car",
       "make":"Nissan GTR",
       "color": "blue",
-      "price": "17,000,000",
+      "price": "17,000,000 ksh",
       "photo": "https://www.topgear.com/sites/default/files/images/news-article/2019/04/95ebfdd32b029b835dffe718cd4e4762/190405_my20_gt-r_anniversary_studio3.jpg"
     },
     {
@@ -117,7 +117,7 @@
       "type": "Car",
       "make":"Subaru wrx sti",
       "color": "white",
-      "price": "3,000,000",
+      "price": "3,000,000 ksh",
       "photo": "https://i.pinimg.com/originals/97/a0/d2/97a0d2ed23cd7ccc8ded9653aa9b57b0.jpg"
     }
   ]

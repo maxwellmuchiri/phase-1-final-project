@@ -16,16 +16,21 @@ function fetchVehicles() {
         const li = document.createElement('li');
         const imageElement = document.createElement('img');
         imageElement.src = vehicle.photo;
-        imageElement.style.width = '600px';
-        imageElement.style.height = '400px';
+        imageElement.style.width = '650px';
+        imageElement.style.height = '450px';
         li.textContent = `${vehicle.make} ${vehicle.price}`;
+        const button = document.createElement("button");
+        button.textContent = "Order";
+        button.addEventListener("click", () => {
+          button.textContent = "Ordered";
+        });
+        li.appendChild(button);
         li.appendChild(imageElement);
         ul.appendChild(li);
       });
       document.querySelector('.vehicles').appendChild(ul);
     });
 }
-
 fetchVehicles();
 
 let form = document.getElementById('ratingForm');
